@@ -1,4 +1,4 @@
-def xd10(s: int) ->bool:
+def xd10(s: str) ->bool:
     '''
     :params:
     input: 
@@ -7,7 +7,7 @@ def xd10(s: int) ->bool:
         nếu trong số có số '1' hoặc '0'-> nó là số 10 thì return true
         không thì return false
     '''
-    if '1' in str(s) or '0' in str(s):
+    if '1' in s or '0' in s:
         return True
     return False
 
